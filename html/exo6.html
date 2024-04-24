@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 4</title>
+</head>
+<body>
+    <!--<form action="https://api-gateway.fullstack.edu.vn/action_page.php">
+       <div>
+        <input type="text" name="Fullname" placeholder="Họ và tên....">
+       
+       </div>
+       <div>
+        <input type="text" name="Email" placeholder="Email....">
+       
+       </div>
+       <button>Gửi</button>
+    </form>-->
+    <form action="">
+        <div>
+            <label for="lbl-name">Họ và Tên</label>
+            <input type="text" name="name" id="lbl-name" placeholder="Họ và Tên" 
+            
+            readonly 
+            
+            maxlength="10">
+            <!--required chỉ đọc không sửa được-->
+            <!--value="Phạm Cường" chỉ nhơs\-->
+            
+
+        </div>
+        <div><div>
+            <label for="lbl-Email">Email</label>
+            <input type="text" name="Email" id="lbl-Email" placeholder="Email" 
+            maxlength="10"></div>
+            <div>
+                <label for="lbl-password">Mật khẩu</label>
+                <input type="password"
+                name="password"
+                id="lbl-password"
+                placeholder="mật khẩu"
+                ></div>
+            
+            <div>
+                <label for="lbl-age">Tuổi</label>
+                <input type="number"
+                name="age"
+                id="lbl-age"
+                placeholder="Tuổi"
+                min="18"
+                max="50"
+                step="1">
+            </div>
+            <div>
+                <label for="lbl-avatar">Avatar</label>
+                <input type="file" name="avatar"
+                id="lbl-avatar">
+            </div>
+            <div>
+                <label>giới tính</label>
+                <label> <input type="radio" name="gender" value="0"></label> Không biết
+                <label>giới tính</label>
+                <label> <input type="radio" name="gender" value="1" checked>Nam</label> 
+                <label>
+                <label> <input type="radio" name="gender" value="2">Nữ</label> 
+            </div>
+
+        <button>Gửi</button>
+        <div>
+                <label for="lbl-age">Tuổi</label>
+                <input type="number"
+                name="age"
+                id="lbl-age"
+                placeholder="Tuổi"
+                min="18"
+                max="50"
+                step="1">
+            </div>
+            <div>
+                <label for="lbl-avatar">Avatar</label>
+                <input type="file" name="avatar"
+                id="lbl-avatar">
+            </div>
+            
+            <div>
+                <label type="Chekbox"
+                
+                name="source" value="facebook"
+                >Facebook</label>
+                 
+            </div>
+            <div>
+                <label for="lbl-date">Ngày Sinh</label>
+            </div>
+            <div>
+                <label for="lbl-price">giá
+                    <input type="range" name="price" id="lbl-price" value="0">
+                </label>
+            </div>
+            <div>
+                <label for="lbl-message">Tin nhắn</label>
+                <textarea name="messge" id="lbl-message" cols="50" rows="5" placeholder="Nội dung tin nhắn...."
+                style="resize: none;">
+Hello anh em 
+ Xin chào f8</textarea>
+            </div>
+            <div>
+                <label for="provinces">Tỉnh / Thành phố</label>
+                <select name="provinces" id="provinces" multiple >
+                    <option value="0">Chọn tỉnh / Thành phố</option>
+                    <option value="1">Hà Nội</option>
+                    <option value="2">HCM</option>
+                    <option value="3">Đà Nẵng</option>
+                </select>
+               
+            </div>
+<!--mutiple chọn được nhiều-->
+        <button type="submit">Gửi</button>
+        <button type="button">Nút</button>
+        <button type="reset">Nhập lại</button>
+    </form>
+</body>
+</html>
