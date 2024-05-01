@@ -1,0 +1,36 @@
+/* selector: ~ ngang hàng và đứng sau
+điều kiện: ngang hàng và thuộc 1 cha
+selector: +
+-chọn thẻ html ngang hàng và đứng liền sau
+- điều kiện : ngang hàng và thuộc 1 cha
+
+selector: ,
+-chọn các selector có cùng nội dung
+-Cú pháp: selector1, selector2, selector 3
+*/
+/*
+p ~ h2 {
+    color: red;
+}
+p ~ div {
+    color: blueviolet;
+}
+p + h2 + h2 {
+*/
+ /* h2 + h2 {
+    color: red;
+} */
+/* .box,
+.content {
+    color: red;
+    background: red;
+}
+
+.box {
+    color: blue;
+}
+
+.content {
+    color: green;
+} */
+

@@ -1,0 +1,37 @@
+/*
+lớp giả (hay còn gọi trạng thái , state)
+cú pháp: selector:tenlopgia
+- hover - trỏ chuột
+- active - click vào giữ chuột
+-focus chỉ hoạt động với form hoặcc thẻ html có thuộc tính tabindex
+- not
+- first-child
+- last-child
+- first - of -type
+- last-of-type
+- nth-child
+- nth-of-type
+- cheked
+- disabled
+*/
+
+h1:hover {
+    color: red;
+}
+
+h1:active {
+    color: blue;
+}
+
+input:focus {
+    background: blue;
+    color: red
+}
+
+input:focus::placeholder {
+    color: green;
+}
+
+h1:focus {
+    background: gold;
+}

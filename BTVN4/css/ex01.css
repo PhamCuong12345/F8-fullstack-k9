@@ -1,0 +1,19 @@
+span {
+    color: orange;
+}
+
+input:hover {
+    background: gray;
+}
+
+button:hover {
+    background: orange;
+}
+
+button:hover {
+    color: white;
+}
+
+input:hover::placeholder {
+    color: orange;
+}

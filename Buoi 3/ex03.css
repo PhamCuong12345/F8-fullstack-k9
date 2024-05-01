@@ -1,0 +1,42 @@
+/*ten the [tenthuoc tinh] --> chọn thẻ html có thuộc tính 
+2 tenthe[tenthuoctinh="giai tri" --> chọn thẻ html thuộc tính và giá trị
+3 tenthe 
+4 tenthe[tenthuoctinh$
+5 tenthe[tenthuoctinh*="gia tri"] --> chọn thể có giá trị nằm ttrong thuộc tính
+6 tenthe[tenthuoctinh~="gia tri]
+    */
+/* ul li a[target] {
+    color: red;
+} */
+/* ul li a[href="https://fullstack.edu.vn"] {
+    color: red;
+} */
+/* ul li a[href^="https://fullstack.edu.vn] {
+    color
+} */
+/* ul li a[href$=".vn] {
+    color: } */
+
+/* ul li a[href="fullstack.edu.vn] 
+    {
+        color: red;
+    } */
+
+/* ul li a[title~="hello] 
+{
+    color: red;
+} */
+#red:checked~label[for="red"],
+#red:checked~p {
+    color: red;
+}
+
+#green:checked~label[for="green"],
+#green:checked~p {
+    color: red;
+}
+
+#blue:checked~label[for="blue"],
+#blue:checked~p {
+    color: red;
+}

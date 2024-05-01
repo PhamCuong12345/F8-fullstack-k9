@@ -1,0 +1,17 @@
+span {
+    background: gray;
+}
+
+u {
+    color: rgb(0, 208, 255);
+}
+
+.box {
+    margin: auto;
+
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #333;
+    padding: 3px;
+}
