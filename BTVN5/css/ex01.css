@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    border: 1px solid grey;
+    background: rgba(128, 128, 128, 0.381);
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left: 600px;
+    top: 250px;
+    height: 250px;
+}
+
+a {
+    color: black;
+}

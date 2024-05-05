@@ -1,0 +1,35 @@
+body {
+    font-family: arial, tahoma
+}
+
+.box-child {
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+
+h2,
+.title-desc {
+    text-align: center;
+}
+
+i {
+    font-size: 50px;
+}
+
+.box {
+    display: flex;
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+
+i {
+    color: orange;
+}
+
+.btn {
+    color: orange
+}

@@ -1,0 +1,82 @@
+/* 
+thuộc tính font-family: thay đổi phông chữ cho văn bản
+cú pháp font-family:tenfont1,tenfont2,...
+lưu ý::
+nếu tên font có khoảng trắng --> thêm vào cặp ""
+Trong thuộc tính font-family sẽ có các giá trị đại diện cho họ font
++serif: họ có chân
++sans-serif: họ không chân
+
+thuộc tính text-decoration: thay đổi gạch ngang văn bản
+
+-none --> không có gạch ngang
+-underline --> gạch dưới
+-overline --> gạch trên
+-line-through --> gạch giữa
+
+thuộc tính text-transform: biến đổi ( chữ hoa,chữ thường)
+- none giữ nguyên bản gốc
+- uppercase --> chữ hoa
+-lowercase --> chữ thường
+- capitalize --> ký tự đầu của mỗi từ viết hoa 
+
+Thuộc tính letter-spacing; khoảng cách mỗi ký tự
+
+thuộc tính word-spacing; khoảng cách giữa mỗi từ
+
+thuộc tính text-align: căn chỉnh văn bản theo chiều ngang
+- left
+- center
+- right
+- justify:căn đều 2 bên
+
+*/
+/* @font-face {
+    font-family: "SVN Fontbox";
+    src: url("../font/SVN-Fontbox-Boathouse-Filled.otf");
+}
+
+@font-face {
+    font-family: "SVN Fontbox";
+    src: url("../font/Font/Lato-Light.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../font/Font/Lato-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../font/Font/Lato-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../font/Font/Lato-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@import url(<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">);
+
+body {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: underline green;
+    text-transform: none;
+    letter-spacing: 3px; */
+word-spacing: 0px;
+/* word-wrap: break-word; */
+/* word-break: break-all; */
+
+
+.box {
+    border: 10px solid red;
+    text-align: right;
+}

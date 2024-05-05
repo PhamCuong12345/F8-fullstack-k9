@@ -1,0 +1,62 @@
+/* 
+thuộc tính color: thay đổi màu chữ
+cú pháp : color: mã màu
++tên màu tiếng anh
++rgb
++hsl
++hexa
+
+color opacity: độ trong suốt của màu sắc
+
+lưu ý : trong các thuộc tính css luôn có các giá trị kế thừa
+-initial --> giá trị mặc định trình duyệt
+-inherit --> kế thừa giá trị thành phần cha
+
+thuộc tính font-size: thay đổi cỡ chữ
+-cú pháp font-size: value + unit
+Đơn vị:
++px --> đơn vị tuyệt đối
++pt  --> đơn vị tuyệt đối (1pt=1,3px)
++em --> đơn vị tương đối ( tỷ lệ với thành phần cha)
++rem --> đơn vị tương đối ( tỷ lệ với giá trị mặc định trình duyệt)
++% --> đơn vị tương đối ( tỷ lệ  với thành phần cha)
+
+Thuộc tính line-height: thay đổi chiều cao dòng văn bản (dãn dòng)
+cú pháp: line-height: value
+
+*/
+/* body {
+    color: red;
+}
+
+.content {
+    color: rgb(255, 140, 0);
+}
+
+.content2 {
+    color: rgba(255, 140, 0, 0.549);
+}
+
+.content:hover {
+    color: initial;
+} */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /* line-height: 0; */
+}
+
+/* .box {
+    font-size: 1.2em;
+}
+
+.content {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+} */
